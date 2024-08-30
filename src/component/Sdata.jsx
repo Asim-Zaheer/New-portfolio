@@ -3,6 +3,12 @@
 
 const Sdata = [
   {
+    imgsrc: "/images/flix.jfif",
+    title: "Hand 3d model",
+    des: "Hand 3d model using React three fibre and GSAP",
+    // href:"https://github.com/Asim-Zaheer/unit-converter-website"
+  },
+  {
     imgsrc: "/images/bg4.png",
     title: "E-commerce Website",
     // des: "",
@@ -28,5 +34,7 @@ const Sdata = [
     des: "project assigned in intership",
     // href:"https://github.com/Asim-Zaheer/unit-converter-website"
   },
+  
+
 ];
 export default Sdata;

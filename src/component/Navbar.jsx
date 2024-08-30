@@ -20,7 +20,7 @@ function NAvbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink exact activeClassName="menu_active"  className="nav-link active me-2 fs-10 text-uppercase " aria-current="page" to="/">Home</NavLink>
+          <NavLink exact activeClassName="menu_active"  className="nav-link active me-2 fs-12 text-uppercase " aria-current="page" to="/">Home</NavLink>
         </li>
 
 

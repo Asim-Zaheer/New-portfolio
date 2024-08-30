@@ -92,3 +92,34 @@ background-color: #000220;
     animation: sf-fly-by-3 5s linear infinite;
 }
 
+.portfolio-slider-container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the slider */
+    padding: 20px 0;
+  }
+  
+  .portfolio-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .portfolio-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image img {
+    width: 100px; /* Adjust size of skill images */
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
